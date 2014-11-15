@@ -15,7 +15,7 @@
 		84A0C4F91A12478600847C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A0C4F71A12478600847C92 /* LaunchScreen.xib */; };
 		84A0C5051A12478700847C92 /* BadEggManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C5041A12478700847C92 /* BadEggManagerTests.m */; };
 		84A0C5111A1258AF00847C92 /* ButtonStyleSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C5101A1258AF00847C92 /* ButtonStyleSetter.m */; };
-		84A4E9571A179976006083B2 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E9561A179976006083B2 /* AddressBookViewController.m */; };
+		84A4E9571A179976006083B2 /* AddressBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E9561A179976006083B2 /* AddressBookTableViewController.m */; };
 		84A4E95A1A1799CB006083B2 /* BlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E9591A1799CB006083B2 /* BlackListViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +45,8 @@
 		84A0C5041A12478700847C92 /* BadEggManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadEggManagerTests.m; sourceTree = "<group>"; };
 		84A0C50F1A1258AF00847C92 /* ButtonStyleSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStyleSetter.h; sourceTree = "<group>"; };
 		84A0C5101A1258AF00847C92 /* ButtonStyleSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStyleSetter.m; sourceTree = "<group>"; };
-		84A4E9551A179976006083B2 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
-		84A4E9561A179976006083B2 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		84A4E9551A179976006083B2 /* AddressBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookTableViewController.h; sourceTree = "<group>"; };
+		84A4E9561A179976006083B2 /* AddressBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookTableViewController.m; sourceTree = "<group>"; };
 		84A4E9581A1799CB006083B2 /* BlackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackListViewController.h; sourceTree = "<group>"; };
 		84A4E9591A1799CB006083B2 /* BlackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,8 +99,8 @@
 				84A0C4F51A12478600847C92 /* Images.xcassets */,
 				84A0C4F71A12478600847C92 /* LaunchScreen.xib */,
 				84A0C4E51A12478500847C92 /* Supporting Files */,
-				84A4E9551A179976006083B2 /* AddressBookViewController.h */,
-				84A4E9561A179976006083B2 /* AddressBookViewController.m */,
+				84A4E9551A179976006083B2 /* AddressBookTableViewController.h */,
+				84A4E9561A179976006083B2 /* AddressBookTableViewController.m */,
 				84A4E9581A1799CB006083B2 /* BlackListViewController.h */,
 				84A4E9591A1799CB006083B2 /* BlackListViewController.m */,
 			);
@@ -247,7 +247,7 @@
 				84A0C4E81A12478500847C92 /* main.m in Sources */,
 				84A0C5111A1258AF00847C92 /* ButtonStyleSetter.m in Sources */,
 				84A4E95A1A1799CB006083B2 /* BlackListViewController.m in Sources */,
-				84A4E9571A179976006083B2 /* AddressBookViewController.m in Sources */,
+				84A4E9571A179976006083B2 /* AddressBookTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

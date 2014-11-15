@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddressBookViewController : UIViewController
+@interface AddressBookTableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
 @end

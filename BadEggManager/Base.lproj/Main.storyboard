@@ -87,16 +87,26 @@
         <!--Address Book-->
         <scene sceneID="RHA-aY-WBx">
             <objects>
-                <viewController title="Address Book" id="P4B-kg-4yn" customClass="AddressBookViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NVA-Rp-vJe"/>
-                        <viewControllerLayoutGuide type="bottom" id="4lX-bu-H2z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ocb-GS-3eA">
+                <viewController title="Address Book" id="P4B-kg-4yn" customClass="AddressBookTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vGg-BP-wWW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.89141049589999999" green="0.89141049589999999" blue="0.89141049589999999" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.82084324050000002" green="0.82084324050000002" blue="0.82084324050000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell alpha="0.19999999999999968" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContactCell" id="CfX-vv-Reb">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CfX-vv-Reb" id="jWS-u8-96x">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.64177139945652173" green="0.10916701435163567" blue="0.12341424960715822" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="P4B-kg-4yn" id="RrU-O4-p6e"/>
+                            <outlet property="delegate" destination="P4B-kg-4yn" id="c5q-ml-vwj"/>
+                        </connections>
+                    </tableView>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fu-tj-Ywa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,18 +6,20 @@
 //  Copyright (c) 2014 admin. All rights reserved.
 //
 
-#import "AddressBookViewController.h"
+#import "AddressBookTableViewController.h"
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface AddressBookViewController (){
+@interface AddressBookTableViewController (){
     NSMutableArray *phonebookList;
     ABAddressBookRef addressBook;
 }
 
 @end
 
-@implementation AddressBookViewController
+static NSString *cellIdentifier = @"ContactCell";
+
+@implementation AddressBookTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,6 +41,22 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return phonebookList.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *contactCell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    NSDictionary *contactDict = [phonebookList objectAtIndex:indexPath.row];
+    
+    NSString *contactFullName = [contactDict objectForKey:@"name"];
+    
+    contactCell.textLabel.text = contactFullName;
+    
+    return contactCell;
 }
 
 -(void) grantPhoneBookAccess{
