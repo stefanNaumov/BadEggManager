@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		84A0C4E81A12478500847C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C4E71A12478500847C92 /* main.m */; };
 		84A0C4EB1A12478600847C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C4EA1A12478600847C92 /* AppDelegate.m */; };
-		84A0C4EE1A12478600847C92 /* BadEggManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C4EC1A12478600847C92 /* BadEggManager.xcdatamodeld */; };
 		84A0C4F11A12478600847C92 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C4F01A12478600847C92 /* MainViewController.m */; };
 		84A0C4F41A12478600847C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0C4F21A12478600847C92 /* Main.storyboard */; };
 		84A0C4F61A12478600847C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A0C4F51A12478600847C92 /* Images.xcassets */; };
 		84A0C4F91A12478600847C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A0C4F71A12478600847C92 /* LaunchScreen.xib */; };
 		84A0C5051A12478700847C92 /* BadEggManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C5041A12478700847C92 /* BadEggManagerTests.m */; };
 		84A0C5111A1258AF00847C92 /* ButtonStyleSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C5101A1258AF00847C92 /* ButtonStyleSetter.m */; };
+		84A4E9571A179976006083B2 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E9561A179976006083B2 /* AddressBookViewController.m */; };
+		84A4E95A1A1799CB006083B2 /* BlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E9591A1799CB006083B2 /* BlackListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,6 @@
 		84A0C4E71A12478500847C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A0C4E91A12478500847C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A0C4EA1A12478600847C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84A0C4ED1A12478600847C92 /* BadEggManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BadEggManager.xcdatamodel; sourceTree = "<group>"; };
 		84A0C4EF1A12478600847C92 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		84A0C4F01A12478600847C92 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		84A0C4F31A12478600847C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +45,10 @@
 		84A0C5041A12478700847C92 /* BadEggManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadEggManagerTests.m; sourceTree = "<group>"; };
 		84A0C50F1A1258AF00847C92 /* ButtonStyleSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStyleSetter.h; sourceTree = "<group>"; };
 		84A0C5101A1258AF00847C92 /* ButtonStyleSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStyleSetter.m; sourceTree = "<group>"; };
+		84A4E9551A179976006083B2 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		84A4E9561A179976006083B2 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		84A4E9581A1799CB006083B2 /* BlackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackListViewController.h; sourceTree = "<group>"; };
+		84A4E9591A1799CB006083B2 /* BlackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,11 @@
 				84A0C4F21A12478600847C92 /* Main.storyboard */,
 				84A0C4F51A12478600847C92 /* Images.xcassets */,
 				84A0C4F71A12478600847C92 /* LaunchScreen.xib */,
-				84A0C4EC1A12478600847C92 /* BadEggManager.xcdatamodeld */,
 				84A0C4E51A12478500847C92 /* Supporting Files */,
+				84A4E9551A179976006083B2 /* AddressBookViewController.h */,
+				84A4E9561A179976006083B2 /* AddressBookViewController.m */,
+				84A4E9581A1799CB006083B2 /* BlackListViewController.h */,
+				84A4E9591A1799CB006083B2 /* BlackListViewController.m */,
 			);
 			path = BadEggManager;
 			sourceTree = "<group>";
@@ -235,11 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A0C4EE1A12478600847C92 /* BadEggManager.xcdatamodeld in Sources */,
 				84A0C4EB1A12478600847C92 /* AppDelegate.m in Sources */,
 				84A0C4F11A12478600847C92 /* MainViewController.m in Sources */,
 				84A0C4E81A12478500847C92 /* main.m in Sources */,
 				84A0C5111A1258AF00847C92 /* ButtonStyleSetter.m in Sources */,
+				84A4E95A1A1799CB006083B2 /* BlackListViewController.m in Sources */,
+				84A4E9571A179976006083B2 /* AddressBookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +438,7 @@
 				84A0C50A1A12478700847C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A0C50B1A12478700847C92 /* Build configuration list for PBXNativeTarget "BadEggManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -438,21 +447,9 @@
 				84A0C50D1A12478700847C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84A0C4EC1A12478600847C92 /* BadEggManager.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84A0C4ED1A12478600847C92 /* BadEggManager.xcdatamodel */,
-			);
-			currentVersion = 84A0C4ED1A12478600847C92 /* BadEggManager.xcdatamodel */;
-			path = BadEggManager.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84A0C4DA1A12478300847C92 /* Project object */;
 }
