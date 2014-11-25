@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ButtonStyleSetter.h"
+#import <Parse/Parse.h>
 
 @interface MainViewController : UIViewController
 

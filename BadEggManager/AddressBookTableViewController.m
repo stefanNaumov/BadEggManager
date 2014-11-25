@@ -50,6 +50,7 @@ static NSString *cellIdentifier = @"ContactCell";
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell *contactCell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    contactCell.textLabel.font = [UIFont fontWithName:@"Papyrus" size:20];
     NSDictionary *contactDict = [phonebookList objectAtIndex:indexPath.row];
     
     NSString *contactFullName = [contactDict objectForKey:@"name"];

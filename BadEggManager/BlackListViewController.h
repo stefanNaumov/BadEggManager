@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BlackListViewController : UIViewController
+@interface BlackListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end

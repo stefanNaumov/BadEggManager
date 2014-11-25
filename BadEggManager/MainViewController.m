@@ -19,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     btnStyleSetter = [[ButtonStyleSetter alloc] init];
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"test"] = @"test1";
+    [testObject saveInBackground];
     
     [self loadButtonsStyles];
 }

@@ -15,6 +15,8 @@
 
 @end
 
+static NSString *cellIdentifier = @"BlackListMemberCell";
+
 @implementation BlackListViewController
 
 - (void)viewDidLoad {
@@ -26,6 +28,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    //TODO add data from blacklist for each member
+    return cell;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return  1;
 }
 
 /*
